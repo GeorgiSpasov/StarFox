@@ -104,6 +104,7 @@ function onLoad() {
 
 	scoreBar = document.createElement('DIV');
 	scoreBar.id = 'scoreBar';
+	scoreBar.style.fontSize = 'xx-large';
 	scoreBar.style.left = gameWidth * 0.01 + 'px';
 	scoreBar.style.top = gameHeight * 0.01 + 'px';
 	scoreBar.style.display = 'none';
